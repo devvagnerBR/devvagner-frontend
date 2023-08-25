@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 *{
-    @apply p-0 m-0 box-border outline-none scroll-smooth  font-Jost text-[1.125rem] text-secondary-600
+    @apply p-0 m-0 box-border outline-none scroll-smooth  font-Jost text-[1.125rem] text-secondary-600 leading-none
 }
 
 

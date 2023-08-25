@@ -16,7 +16,8 @@ export default {
         "Jost": ["Jost", "sans-serif"],
         "Sarala": ["Sarala", "sans-serif"]
       }, screens: {
-        "window": '960px'
+        "window": '960px',
+        "mobile": "480px"
       }, colors: {
         secondary: {
           "600": "#525252",
