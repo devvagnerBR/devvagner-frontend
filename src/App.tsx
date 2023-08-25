@@ -1,11 +1,14 @@
+
+import "./Styles/Global.scss"
+import { Portfolio } from "@/Pages"
+
+
 function App() {
 
 
-  return (
-    <div>
-      <h1>Project</h1>
-    </div>
-  )
+
+  return ( <Portfolio /> )
+  
 }
 
 export default App

@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 *{
-    @apply p-0 m-0 box-border outline-none scroll-smooth font-Exo 
+    @apply p-0 m-0 box-border outline-none scroll-smooth  font-Jost text-[1.125rem] text-secondary-600
 }
 
+
+html{
+    @apply bg-secondary-100
+}
 @layer base {
     a,button, img,h4{
         @apply select-none
