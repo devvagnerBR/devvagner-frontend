@@ -12,11 +12,11 @@ export const Introduction = () => {
         <section className="w-full flex mt-4  max-window:mt-0  flex-col items-center">
             <section className="w-full relative">
                 <img src={cover_profile} className="w-full " alt="" />
-                <img src={profile} className="absolute max-w-[38%] transition-all max-md:top-[40%] w-[170px] max-window: top-[50%] left-8 max-mobile:left-4 max-sm:top-[20%] flex  max-sm:w-[30%] " alt="" />
+                <img src={profile} className="absolute max-w-[38%] transition-all max-md:top-[40%] w-[170px] max-window: top-[50%] left-8 max-sm:left-4 max-sm:top-[20%] flex  max-sm:w-[30%] " alt="" />
             </section>
             <ContainerSection>
-                <header className="pt-8 flex max-md:flex-col max-md:items-start max-md:gap-4 w-full justify-between  pl-4 max-mobile:pl-0">
-                    <div className="flex flex-col gap-2 max-md:order-1 max-mobile:w-full ">
+                <header className="pt-8 flex max-md:flex-col max-md:items-start max-md:gap-4 w-full justify-between  pl-4 max-sm:pl-0">
+                    <div className="flex flex-col gap-2 max-md:order-1 max-mobile:w-full max-md:pt-2 max-sm:pt-0 ">
                         <h1 className="text-2xl font-medium leading-none">Wagner Guimarães</h1>
                         <h1 className="text-lg font-light leading-none">Desenvolvedor Front-end | Full-stack</h1>
                         <h2 className="text-sm text-primary-500 leading-none  max-md:leading-5">ReactJS | Typescript | Javascript | Tailwind | SASS | Firebase | SQL | NodeJS</h2>
