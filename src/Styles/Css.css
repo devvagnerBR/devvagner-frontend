@@ -8,7 +8,7 @@
 
 
 html{
-    @apply bg-secondary-100
+    @apply bg-secondary-100 
 }
 @layer base {
     a,button, img,h4{

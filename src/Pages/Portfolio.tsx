@@ -1,4 +1,4 @@
-import { ContainerApp, Header, Introduction } from "@/Components"
+import { About, ContainerApp, Graduation, Header, Introduction } from "@/Components"
 
 export const Portfolio = () => {
 
@@ -7,6 +7,8 @@ export const Portfolio = () => {
         <ContainerApp>
             <Header />
             <Introduction />
+            <About />
+            <Graduation />
         </ContainerApp>
     )
 }
