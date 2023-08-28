@@ -1,0 +1,1 @@
+export { certificatesData } from "@/Data/CertificatesData"

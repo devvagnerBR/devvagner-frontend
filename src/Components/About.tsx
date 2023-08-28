@@ -1,6 +1,8 @@
 import { ContainerSection } from "@/Components"
 
 export const About = () => {
+
+    
     return (
         <ContainerSection>
             <h1 className='text-xl'>Sobre</h1>

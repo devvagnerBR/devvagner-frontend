@@ -6,8 +6,6 @@ import * as Icon from "@phosphor-icons/react"
 
 export const Introduction = () => {
 
-
-
     return (
         <section className="w-full flex  flex-col items-center">
             <section className="w-full relative">
