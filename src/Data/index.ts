@@ -1,1 +1,2 @@
-export { certificatesData } from "@/Data/CertificatesData"
+export { certificatesData } from "./CertificatesData"
+export { frontEnd, backEnd, design } from './SkillsData';
