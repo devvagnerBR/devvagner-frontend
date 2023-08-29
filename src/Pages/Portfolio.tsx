@@ -1,4 +1,4 @@
-import { About, Certificates, ContainerApp, Graduation, Header, Introduction, Languages, Projects, Skills } from "@/Components"
+import { About, Certificates, ContainerApp, Experience, Graduation, Header, Introduction, Languages, Projects, Skills } from "@/Components"
 
 export const Portfolio = () => {
 
@@ -13,6 +13,7 @@ export const Portfolio = () => {
             <Skills />
             <Languages />
             <Projects />
+            <Experience />
         </ContainerApp>
     )
 }
