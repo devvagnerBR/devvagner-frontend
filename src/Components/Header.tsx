@@ -6,7 +6,7 @@ export const Header = () => {
     const isPortuguese = true;
 
     return (
-        <header className=' w-[calc(100vw-3px)] flex bg-secondary-50  items-center justify-center shrink-0 h-[3.25rem]'>
+        <header className='fixed w-[calc(100vw-3px)] flex bg-secondary-50 z-50  items-center justify-center shrink-0 h-[3.25rem]'>
             <section className='w-full max-w-[960px] h-full max-window:px-4 flex items-center justify-between'>
                 <section className='flex gap-2 text-sm'>
                     <button

@@ -1,6 +1,6 @@
 import React from "react"
 
-const getPageWidth = () => {
+export const getPageWidth = () => {
 
     const [size, setSize] = React.useState<number>( window.innerWidth )
 
@@ -23,4 +23,3 @@ const getPageWidth = () => {
     return { size }
 }
 
-export default getPageWidth;

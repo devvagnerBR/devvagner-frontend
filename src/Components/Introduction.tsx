@@ -7,7 +7,7 @@ import * as Icon from "@phosphor-icons/react"
 export const Introduction = () => {
 
     return (
-        <section className="w-full flex  flex-col items-center">
+        <section className="w-full flex mt-16 max-lg:mt-12  flex-col items-center">
             <section className="w-full relative">
                 <img src={cover_profile} className="w-full" alt="" />
                 <img src={profile} className="absolute max-w-[38%] transition-all max-md:top-[40%] w-[170px] max-window: top-[50%] left-4 max-sm:left-4 max-sm:top-[20%] flex  max-sm:w-[30%] " alt="" />

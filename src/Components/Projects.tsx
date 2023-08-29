@@ -1,17 +1,20 @@
 import { ContainerSection, ProjectCard } from "@/Components"
 import { projectsData } from "@/Data"
 import { PROJECT_PROPS } from "@/Types"
+import { getPageWidth } from "@/Hooks";
 
 
 
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Pagination} from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css'
-import getPageWidth from "@/Hooks/useGetPageSize";
+
+
+
 
 
 
