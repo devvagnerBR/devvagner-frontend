@@ -3,8 +3,11 @@ import cover_profile from "@/Assets/Images/cover_profile.png"
 import profile from "@/Assets/Images/profile.png"
 import college_logo from "@/Assets/Images/descomplica_logo.png"
 import * as Icon from "@phosphor-icons/react"
+import { useData } from "@/Context"
 
 export const Introduction = () => {
+
+    const { setModalContactInfos } = useData();
 
     return (
         <section className="w-full flex mt-16 max-lg:mt-12  flex-col items-center">
@@ -24,7 +27,7 @@ export const Introduction = () => {
                             <p className="max-lg:text-sm text-center ">Universidade Uniamérica</p>
                         </div>
 
-                        <h3 className="text-sm pt-4 max-sm:pt-0">Rio de Janeiro - Brasil - <span className="text-sm text-primary-500 cursor-pointer">Informações de contato</span> </h3>
+                        <h3 onClick={() => setModalContactInfos( true )} className="text-sm pt-4 max-sm:pt-0">Rio de Janeiro - Brasil - <span className="text-sm text-primary-500 cursor-pointer hover:text-primary-500/90">Informações de contato</span> </h3>
                         <div className="flex gap-8 pt-4 max-sm:pt-0">
                             <div className="flex">
                                 <a href="" className="flex items-center gap-2 text-primary-500 text-base">

@@ -18,7 +18,7 @@ export const Header = () => {
                         EN
                     </button>
                 </section>
-                <nav className='flex gap-4 max-sm:hidden'>
+                <nav className='flex gap-8 max-sm:hidden'>
                     <a className='cursor-pointer'>Início</a>
                     <a className='cursor-pointer'>Sobre</a>
                     <a className='cursor-pointer'>Projetos</a>

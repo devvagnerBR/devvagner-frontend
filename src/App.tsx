@@ -7,8 +7,11 @@ function App() {
 
 
 
-  return ( <Portfolio /> )
-  
+  return (
+    
+    <Portfolio />
+  )
+
 }
 
 export default App
