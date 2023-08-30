@@ -8,13 +8,18 @@ const DataContext = React.createContext<CONTEXT_PROPS | null>( null );
 const DataContextProvider = ( { children }: React.PropsWithChildren ) => {
 
     const [modalContactInfos, setModalContactInfos] = React.useState( false )
+    const [modalMobileMenu, setModalMobileMenu] = React.useState( true )
 
     const handleOutSideClick = ( event: React.MouseEvent ) => {
         if ( event.target === event.currentTarget ) setModalContactInfos( false );
     };
 
     return (
-        <DataContext.Provider value={{ modalContactInfos, setModalContactInfos, handleOutSideClick }}>
+        <DataContext.Provider value={{
+            modalContactInfos, setModalContactInfos,
+            handleOutSideClick,
+            modalMobileMenu, setModalMobileMenu
+        }}>
             {children}
         </DataContext.Provider >
     )

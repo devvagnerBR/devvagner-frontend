@@ -4,7 +4,7 @@ import college_logo from "@/Assets/Images/descomplica_logo2x.png"
 export const Graduation = () => {
     return (
         <ContainerSection>
-            <h1 className='text-xl'>Formação acadêmica</h1>
+            <h1 id="about" className='text-xl'>Formação acadêmica</h1>
             <section className='mt-8 max-lg:mt-4  cursor-pointer  flex lg:items-center items-start '>
                 <img src={college_logo} alt="" className='max-mobile:w-20' width={50}  />
                 <div className='flex flex-col pl-2'>
@@ -17,4 +17,3 @@ export const Graduation = () => {
         </ContainerSection>
     )
 }
-

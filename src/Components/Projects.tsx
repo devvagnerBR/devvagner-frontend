@@ -24,7 +24,7 @@ export const Projects = () => {
     const { size } = getPageWidth()
 
     return (
-        <ContainerSection>
+        <ContainerSection id="projects">
             <h1 className='text-xl'>Projetos</h1>
             <Swiper
                 modules={[Pagination, Navigation]}

@@ -25,7 +25,7 @@ export const useContact = () => {
         if ( !name || !email || !message ) {
             alert( "Preencha todos os campos" )
             return;
-        }
+        } 
 
         const templateParams = {
             from_name: formValues.name,

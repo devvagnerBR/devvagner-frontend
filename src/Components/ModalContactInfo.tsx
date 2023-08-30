@@ -2,10 +2,6 @@ import * as Icon from "@phosphor-icons/react"
 import { useData } from "@/Context"
 import { useScroll } from "@/Hooks"
 
-
-
-
-
 export const ModalContactInfo = () => {
 
     const {

@@ -1,16 +1,13 @@
 
 import "./Styles/Global.scss"
-import { Portfolio } from "@/Pages"
+import { Portfolio } from "@/Pages/Portfolio"
 
 
 function App() {
 
 
 
-  return (
-    
-    <Portfolio />
-  )
+  return <Portfolio />
 
 }
 

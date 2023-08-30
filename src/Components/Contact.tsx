@@ -69,7 +69,7 @@ export const Contact = () => {
                             <a href="https://www.linkedin.com/in/devvagner/" target='_blank'>
                                 <Icon.LinkedinLogo className='fill-primary-500 cursor-pointer' size={30} weight='regular' />
                             </a>
-                            <a href='mailto:devvagnerbr@gmail.com' target='_blank' className='text-primary-500 cursor-pointer max-md:text-base'>devvagnerbr@gmail.com</a>
+                            <a  href='mailto:devvagnerbr@gmail.com' target='_blank' className='text-primary-500 cursor-pointer max-md:text-base'>devvagnerbr@gmail.com</a>
                         </div>
                     </div>
                 </form>
