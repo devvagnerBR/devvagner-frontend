@@ -8,7 +8,7 @@ const DataContext = React.createContext<CONTEXT_PROPS | null>( null );
 const DataContextProvider = ( { children }: React.PropsWithChildren ) => {
 
     const [modalContactInfos, setModalContactInfos] = React.useState( false )
-    const [modalMobileMenu, setModalMobileMenu] = React.useState( true )
+    const [modalMobileMenu, setModalMobileMenu] = React.useState( false )
 
     const handleOutSideClick = ( event: React.MouseEvent ) => {
         if ( event.target === event.currentTarget ) setModalContactInfos( false );
