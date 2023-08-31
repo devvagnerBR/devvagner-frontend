@@ -34,7 +34,7 @@ export const ModalContactInfo = () => {
                         <Icon.Envelope size={26} className="fill-secondary-500" />
                         <div className="flex flex-col items-start justify-end">
                             <h1 className="text-base ">E-mail </h1>
-                            <a href="mailto:devvagnerbr@gmail.com" className="text-base  font-light text-primary-500 hover:underline cursor-pointer">wagnerluizsg@outlook.com.br</a>
+                            <a target="_blank" href="mailto:devvagnerbr@gmail.com" className="text-base  font-light text-primary-500 hover:underline cursor-pointer">wagnerluizsg@outlook.com.br</a>
                         </div>
                     </div>
                     <div className="flex items-start gap-2">

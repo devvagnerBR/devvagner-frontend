@@ -16,6 +16,9 @@ html{
     }
 }
 
+.no_click{
+    @apply select-none
+}
 
 .swiper {
   width: 100%;

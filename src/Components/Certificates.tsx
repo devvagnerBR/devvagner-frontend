@@ -20,6 +20,7 @@ export const Certificates = () => {
                     )
                 } )}
             </section>
+            <p className='mt-4 text-sm text-secondary-400 font-light'>mais certificações você pode encontrar no meu perfil no <a target='_blank' href='https://www.linkedin.com/in/devvagner/details/certifications' className='text-primary-500 text-sm cursor-pointer'>LinkedIn</a></p>
         </ContainerSection>
     )
 }
