@@ -1,5 +1,6 @@
-import { About, Certificates, Contact, ContainerApp, Experience, Graduation, Header, Introduction, Languages, MobileMenu, ModalContactInfo, Projects, Skills } from "@/Components"
 import { DataContextProvider } from "@/Context"
+import { ContainerApp, Header, MobileMenu, ModalContactInfo } from "@/Components"
+import { Introduction, About, Certificates, Contact, Experience, Graduation, Languages, Projects, Skills } from "@/Sections"
 
 export const Portfolio = () => {
 

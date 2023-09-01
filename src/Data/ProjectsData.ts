@@ -1,9 +1,10 @@
-import p1 from "@/Assets/Images/Projects/cabum.png"
-import p2 from "@/Assets/Images/Projects/docmentor.png"
-import p3 from "@/Assets/Images/Projects/landing_page.png"
+import kabum from "@/Assets/Images/Projects/kabum.png"
+import docMentor from "@/Assets/Images/Projects/doc_mentor.png"
+import devHouse from "@/Assets/Images/Projects/dev_house.png"
+import { PROJECT_PROPS } from "@/Types"
 
-export const projectsData = [
-    { id: 1, image: p1, title: "CaBuM", subtitle: "E-commerce KaBuM Clone", tags: ["REACT", "FIREBASE", "TAILWIND"] },
-    { id: 2, image: p2, title: "DocMentor", subtitle: "EPI GAMES C.R.U.D.E", tags: ["REACT", "FIREBASE", "TAILWIND"] },
-    { id: 3, image: p3, title: "LandingPage", subtitle: "Landing Page", tags: ["REACT", "FIREBASE", "TAILWIND"] },
+export const projectsData: PROJECT_PROPS[] = [
+    { id: 1, image: kabum, title: "KaBuM", subtitle: "E-commerce KaBuM Clone", tags: ["REACT", "FIREBASE", "TAILWIND"], demo_url: "https://cabum.devvagner.com/", github_url: "https://github.com/devvagnerBR/CaBuM" },
+    { id: 2, image: docMentor, title: "Doc Mentor", subtitle: "Plataforma de gestão de alunos", tags: ["REACT", "FIREBASE", "TAILWIND"], demo_url: "https://doc-mentor.devvagner.com/", github_url: "https://github.com/devvagnerBR/doc-mentor" },
+    { id: 3, image: devHouse, title: "Dev House", subtitle: "Plataforma de perguntas", tags: ["REACT", "FIREBASE", "TAILWIND"], demo_url: "https://devhouse.devvagner.com/", github_url: "https://github.com/devvagnerBR/dev-house" },
 ]

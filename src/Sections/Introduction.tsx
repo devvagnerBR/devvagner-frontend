@@ -2,7 +2,7 @@ import { useData } from "@/Context"
 import { Link } from "react-scroll"
 import * as Icon from "@phosphor-icons/react"
 import { ContainerSection } from "@/Components"
-import profile from "@/Assets/Images/profile.png"
+import profile from "@/Assets/Images/avatar.png"
 import cover_profile from "@/Assets/Images/cover_profile.png"
 import college_logo from "@/Assets/Images/descomplica_logo.png"
 import CV from "@/Assets/Files/Wagner Luiz - currículo - desenvolvedor de software.pdf"
@@ -16,7 +16,7 @@ export const Introduction = () => {
         <section id="start" className="w-full flex window:mt-16 max-window:mt-10 max-sm:mt-0  flex-col items-center">
             <section className="w-full relative">
                 <img src={cover_profile} className="w-full" alt="" />
-                <img src={profile} className="absolute max-w-[38%] transition-all max-md:top-[40%] w-[170px] max-window: top-[50%] left-4 max-sm:left-4 max-sm:top-[20%] flex  max-sm:w-[30%] " alt="" />
+                <img src={profile} className="absolute rounded-full border-4 border-secondary-50 max-w-[38%] transition-all max-md:top-[40%] w-[170px] max-window: top-[50%] left-4 max-sm:left-4 max-sm:top-[20%] flex  max-sm:w-[30%] " alt="" />
             </section>
             <ContainerSection>
                 <header className="pt-12 max-sm:pt-14 max-mobile:pt-8 max-lg:pt-16 flex max-md:flex-col max-md:items-start max-md:gap-4 w-full justify-between  ">
@@ -47,13 +47,13 @@ export const Introduction = () => {
                         </div>
                         <div className="flex items-center  pt-4 gap-8 max-mobile:flex-col">
                             <Link to="contact" smooth offset={20} duration={600}>
-                                <button className="flex items-center justify-center gap-2 max-mobile:w-full bg-primary-500 py-4 px-4 rounded-md text-secondary-50">
+                                <button className="flex items-center hover:bg-blue-600 transition-all justify-center gap-2 max-mobile:w-full bg-primary-500 py-4 px-4 rounded-md text-secondary-50">
                                     <Icon.PaperPlaneTilt size={22} weight="bold" className="fill-secondary-50" />
                                     Enviar Mensagem
                                 </button>
                             </Link>
-                            <a href={CV} download className="flex gap-2 text-primary-500 hover:text-blue-800" >
-                                <Icon.DownloadSimple size={22} className="fill-primary-500" weight="bold" />
+                            <a href={CV} download className="flex gap-2 text-primary-500 hover:text-blue-600" >
+                                <Icon.DownloadSimple size={22} className="fill-primary-500 hover:fill-blue-600" weight="bold" />
                                 Baixar Currículo
                             </a>
                         </div>
