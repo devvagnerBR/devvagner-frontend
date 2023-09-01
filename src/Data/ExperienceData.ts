@@ -1,4 +1,6 @@
-export const experienceData =
+import { EXPERIENCE_PROPS } from "@/Types";
+
+export const experienceData: EXPERIENCE_PROPS[] =
     [
         {
             id: 1,

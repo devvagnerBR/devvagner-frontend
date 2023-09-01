@@ -2,9 +2,10 @@ import alura from "@/Assets/Images/Certificates/alura.png"
 import origamid from "@/Assets/Images/Certificates/origamid.png"
 import oneBitCode from "@/Assets/Images/Certificates/onebitcode.png"
 import labenu from "@/Assets/Images/Certificates/labenu.png"
+import { CERTIFICATES_PROPS } from "@/Types"
 
 
-export const certificatesData = [
+export const certificatesData: CERTIFICATES_PROPS[] = [
     { id: 1, image: alura, school_name: "Alura", course: "Formação Front-end", conclusion_year: "2022" },
     { id: 2, image: labenu, school_name: "Labenu", course: "Formação Full-stack", conclusion_year: "2022" },
     { id: 3, image: origamid, school_name: "Origamid", course: "Desenvolvedor Front-end", conclusion_year: "2022" },

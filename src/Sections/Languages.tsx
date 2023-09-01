@@ -13,7 +13,7 @@ export const Languages = () => {
                 {languageData?.map( ( language ) => (
                     <div key={language.id} className='flex flex-col gap-2'>
                         <h1 className='text-primary-500'>{language.language}</h1>
-                        <p className='text-base'>{language.level}</p>
+                        <p className='text-base'>Nível: {language.level}</p>
                     </div>
                 ) )}
             </main>

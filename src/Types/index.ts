@@ -1,4 +1,6 @@
-
-
 export type { PROJECT_PROPS } from "./ProjectsType.ts"
 export type { CONTEXT_PROPS } from "./ContextTypes.ts"
+export type { LANGUAGES_PROPS } from "./LanguageTypes.ts"
+export type { CERTIFICATES_PROPS } from "./CertificatesType.ts"
+export type { EXPERIENCE_PROPS } from "./ExperienceTypes.ts"
+export type { SKILLS_PROPS } from "./SkillsTypes.ts"
