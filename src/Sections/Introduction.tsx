@@ -22,8 +22,8 @@ export const Introduction = () => {
                 <header className="pt-12 max-sm:pt-14 max-mobile:pt-8 max-lg:pt-16 flex max-md:flex-col max-md:items-start max-md:gap-4 w-full justify-between  ">
                     <div className="flex flex-col gap-2 max-md:order-1 max-mobile:w-full max-md:pt-2 max-sm:pt-0 ">
                         <h1 className="text-2xl font-medium leading-none">Wagner Guimarães</h1>
-                        <h1 className="text-lg  font-light leading-none">Desenvolvedor Front-end | Full-stack</h1>
-                        <h2 className="text-sm text-primary-500 leading-none  max-md:leading-5">ReactJS | Typescript | Javascript | Tailwind | SASS | Firebase | SQL | NodeJS</h2>
+                        <h1 className="text-lg  font-light leading-none">Desenvolvedor  Full-stack</h1>
+                        <h2 className="text-sm text-primary-500 leading-none  max-md:leading-5">React Js | Java | Typescript | Javascript | Tailwind | SASS | Firebase | SQL | Node Js</h2>
 
                         <div className="flex md:hidden items-center gap-2 cursor-pointer">
                             <img src={college_logo} alt="faculdade Descomplica Logo" title="Faculdade Descomplica" />

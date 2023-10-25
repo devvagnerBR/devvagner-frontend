@@ -41,7 +41,7 @@ export const ModalContactInfo = () => {
                         <Icon.Phone size={26} className="fill-secondary-500" />
                         <div className="flex flex-col items-start justify-end">
                             <h1 className="text-base">Telefone</h1>
-                            <a target="_blank" href="https://web.whatsapp.com/send?phone=5522999887464" className="text-base  font-light text-primary-500 hover:underline cursor-pointer">(22) 99988-7464</a>
+                            <a target="_blank" href="https://web.whatsapp.com/send?phone=5522997759060" className="text-base  font-light text-primary-500 hover:underline cursor-pointer">(22) 99775-9060</a>
                         </div>
                     </div>
                 </main>
